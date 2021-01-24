@@ -50,6 +50,7 @@ export default function Branch({ branchDetail }) {
         border="1px"
         borderColor="gray.200"
         width={{ base: "100%", md: "400px" }}
+        order="2"
       >
         {Article.articles.map((value, index) => {
           return (
@@ -64,7 +65,7 @@ export default function Branch({ branchDetail }) {
       </Flex>
 
       {/* center */}
-      <Flex direction="column" justify="center">
+      <Flex direction="column" justify="center" order="1">
         <Box
           width={{ base: "100%", md: "400px" }}
           shadow="lg"
@@ -100,6 +101,7 @@ export default function Branch({ branchDetail }) {
         border="1px"
         borderColor="gray.200"
         width={{ base: "100%", md: "400px" }}
+        order="3"
       >
         {Article.articles.map((value, index) => {
           return (
