@@ -66,7 +66,7 @@ export default function Branch({ branchDetail }) {
       {/* center */}
       <Flex direction="column">
         <Box
-          width={{ base: "100%", md: "600px" }}
+          width={{ base: "100%", md: "370px" }}
           shadow="lg"
           p="5px"
           border="1px"
@@ -77,7 +77,7 @@ export default function Branch({ branchDetail }) {
         </Box>
 
         <Box
-          width={{ base: "100%", md: "600px" }}
+          width={{ base: "100%", md: "370px" }}
           shadow="lg"
           p="5px"
           border="1px"
