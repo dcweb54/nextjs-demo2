@@ -49,7 +49,7 @@ export default function Branch({ branchDetail }) {
         shadow="lg"
         border="1px"
         borderColor="gray.200"
-        width="450px"
+        width={{ base: "100%", md: "400px" }}
       >
         {Article.articles.map((value, index) => {
           return (
@@ -99,7 +99,7 @@ export default function Branch({ branchDetail }) {
         shadow="lg"
         border="1px"
         borderColor="gray.200"
-        width="450px"
+        width={{ base: "100%", md: "400px" }}
       >
         {Article.articles.map((value, index) => {
           return (
