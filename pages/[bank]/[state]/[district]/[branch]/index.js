@@ -66,23 +66,23 @@ export default function Branch({ branchDetail }) {
       {/* center */}
       <Flex direction="column">
         <Box
-          width={{ base: "100%", md: "370px" }}
+          width={{ base: "100%", md: "400px" }}
           shadow="lg"
           p="5px"
           border="1px"
           borderColor="gray.200"
-          my="20px"
+          my="10px"
         >
           <ContentSelection formSelect={formSelect} />
         </Box>
 
         <Box
-          width={{ base: "100%", md: "370px" }}
+          width={{ base: "100%", md: "400px" }}
           shadow="lg"
           p="5px"
           border="1px"
           borderColor="gray.200"
-          mb="20px"
+          mb="10px"
         >
           <Heading as="h4" size="md" pl="20px">
             Branch Details
