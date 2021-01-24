@@ -64,7 +64,7 @@ export default function Branch({ branchDetail }) {
       </Flex>
 
       {/* center */}
-      <Flex direction="column">
+      <Flex direction="column" justify="center">
         <Box
           width={{ base: "100%", md: "400px" }}
           shadow="lg"
