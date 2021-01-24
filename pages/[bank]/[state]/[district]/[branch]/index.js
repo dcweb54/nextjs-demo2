@@ -40,7 +40,7 @@ export default function Branch({ branchDetail }) {
   ];
 
   return (
-    <Flex flex={1} justify="center" >
+    <Flex flex={1} justify="center" direction={{base: "column", md: "row" }} >
       {/* start */}
       <Flex
         // flex={1}
