@@ -45,7 +45,7 @@ export default function Branch({ branchDetail }) {
       <Flex
         // flex={1}
         direction="column"
-        m="20px"
+        // m="20px"
         shadow="lg"
         border="1px"
         borderColor="gray.200"
@@ -96,7 +96,7 @@ export default function Branch({ branchDetail }) {
       <Flex
         // flex={1}
         direction="column"
-        m="20px"
+        // m="20px"
         shadow="lg"
         border="1px"
         borderColor="gray.200"
